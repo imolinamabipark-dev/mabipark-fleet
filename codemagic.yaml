@@ -33,7 +33,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - tu-email@gmail.com
+          - imolina.mabipark@gmail.com
         notify:
           success: true
           failure: true
