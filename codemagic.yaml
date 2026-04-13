@@ -15,11 +15,11 @@ workflows:
       - name: Agregar plataforma Android
         script: |
           if [ ! -d "android" ]; then
-            npx cap add android
+            node node_modules/@capacitor/cli/bin/capacitor add android
           fi
 
       - name: Sincronizar web con Android
-        script: npx cap sync android
+        script: node node_modules/@capacitor/cli/bin/capacitor sync android
 
       - name: Build APK
         script: |
@@ -33,7 +33,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - imolina.mabipark@gmail.com
+          - tu-email@gmail.com
         notify:
           success: true
           failure: true
