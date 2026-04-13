@@ -1,0 +1,24 @@
+{
+  "appId":   "com.mabipark.fleet",
+  "appName": "Mabipark Fleet",
+  "webDir":  "www",
+  "bundledWebRuntime": false,
+
+  "android": {
+    "buildOptions": {
+      "keystorePath":        "mabipark.keystore",
+      "keystoreAlias":       "mabipark",
+      "keystorePassword":    "mabipark2024",
+      "keystoreAliasPassword": "mabipark2024",
+      "releaseType":         "APK"
+    }
+  },
+
+  "plugins": {
+    "BackgroundGeolocation": {
+      "notificationTitle":   "Mabipark Fleet — Rastreo activo",
+      "notificationText":    "GPS activo. No se puede cerrar.",
+      "notificationIconColor": "#C9A84C"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Mabipark Fleet</string>
+    <string name="title_activity_main">Mabipark Fleet</string>
+    <string name="package_name">com.mabipark.fleet</string>
+    <string name="custom_url_scheme">com.mabipark.fleet</string>
+</resources>
